@@ -11,29 +11,29 @@ module qwi12_petaled
 (
    // DDR interface
    inout     [14:0]   DDR_addr,
-	inout     [2:0]    DDR_ba,
-	inout              DDR_cas_n,
-	inout              DDR_ck_n,
-	inout              DDR_ck_p,
-	inout              DDR_cke,
-	inout              DDR_cs_n,
-	inout     [3:0]    DDR_dm,
-	inout     [31:0]   DDR_dq,
-	inout     [3:0]    DDR_dqs_n,
-	inout     [3:0]    DDR_dqs_p,
-	inout              DDR_odt,
-	inout              DDR_ras_n,
-	inout              DDR_reset_n,
-	inout              DDR_we_n,
+   inout     [2:0]    DDR_ba,
+   inout              DDR_cas_n,
+   inout              DDR_ck_n,
+   inout              DDR_ck_p,
+   inout              DDR_cke,
+   inout              DDR_cs_n,
+   inout     [3:0]    DDR_dm,
+   inout     [31:0]   DDR_dq,
+   inout     [3:0]    DDR_dqs_n,
+   inout     [3:0]    DDR_dqs_p,
+   inout              DDR_odt,
+   inout              DDR_ras_n,
+   inout              DDR_reset_n,
+   inout              DDR_we_n,
    // FIXED_IO interface
-	inout              FIXED_IO_ddr_vrn,
-	inout              FIXED_IO_ddr_vrp,
-	inout     [53:0]   FIXED_IO_mio,
-	inout              FIXED_IO_ps_clk,
-	inout              FIXED_IO_ps_porb,
-	inout              FIXED_IO_ps_srstb,
+   inout              FIXED_IO_ddr_vrn,
+   inout              FIXED_IO_ddr_vrp,
+   inout     [53:0]   FIXED_IO_mio,
+   inout              FIXED_IO_ps_clk,
+   inout              FIXED_IO_ps_porb,
+   inout              FIXED_IO_ps_srstb,
    // LED
-   output             LED
+   output    [3:0]    LED
 );
 
 //*****************************************************************************
@@ -69,7 +69,7 @@ system u_system
    .FIXED_IO_ps_porb       ( FIXED_IO_ps_porb ),
    .FIXED_IO_ps_srstb      ( FIXED_IO_ps_srstb ),
    // LED
-   .GPIO_tri_o             ( LED )
+   .GPIO_tri_o             ( LED[0] )
 );
 
 endmodule
