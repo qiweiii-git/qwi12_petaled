@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
-| Date         : Mon Oct  5 23:13:36 2020
+| Date         : Wed Oct  7 03:28:53 2020
 | Host         : ubuntu running 64-bit Ubuntu 14.04.2 LTS
 | Command      : report_timing_summary -warn_on_violation -max_paths 10 -file qwi12_petaled_timing_summary_routed.rpt -rpx qwi12_petaled_timing_summary_routed.rpx
 | Design       : qwi12_petaled

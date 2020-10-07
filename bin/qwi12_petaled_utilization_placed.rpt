@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
-| Date         : Mon Oct  5 23:12:42 2020
+| Date         : Wed Oct  7 03:28:22 2020
 | Host         : ubuntu running 64-bit Ubuntu 14.04.2 LTS
 | Command      : report_utilization -file qwi12_petaled_utilization_placed.rpt -pb qwi12_petaled_utilization_placed.pb
 | Design       : qwi12_petaled
